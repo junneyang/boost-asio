@@ -1,0 +1,41 @@
+{
+	"service": "ItemService",
+	"method": "GetItemsByItem",
+	"request": {
+		"header": {
+				"subservice":"sub",
+				"secretkey": "pass",
+				"servicekey": "key1"
+		},
+		"algorithmId": "topic_rev_poi",
+		"item_ids": ["9977193541978760286"]
+	}
+}
+*************************splitline*************************
+{
+	"service": "ItemService",
+	"method": "GetItemsByItem",
+	"request": {
+		"header": {
+				"subservice":"sub",
+				"secretkey": "pass",
+				"servicekey": "key1"
+		},
+		"algorithmId": "topic_rev_poi",
+		"item_ids": ["9977193541978760286","9977193541978760287"]
+	}
+}
+*************************splitline*************************
+{
+	"service": "ItemService",
+	"method": "GetItemsByItem",
+	"request": {
+		"header": {
+				"subservice":"sub",
+				"secretkey": "pass",
+				"servicekey": "key1"
+		},
+		"algorithmId": "topic_rev_poi",
+		"item_ids": ["9977193541978760286","9977193541978760288"]
+	}
+}
